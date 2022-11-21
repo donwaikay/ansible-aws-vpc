@@ -26,7 +26,7 @@
         az: "{{zone1}}"
         state: "{{state}}"
         cidr: "{{pubSub1Cidr}}"
-        mapPublic: yes
+        map_public: yes
         resource_tags: 
           Name: Olayinka-pubsub1 
       register: pubSub1_out 
